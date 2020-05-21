@@ -1,0 +1,305 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body
+{
+margin:0px;
+padding:0px;
+background:#1b1f23;
+
+}
+.header
+{
+display:flex;
+text-align:center;
+}
+.btn1
+{
+border-radius: 50px;
+background: linear-gradient(145deg, #181c20, #1d2125);
+box-shadow:  7px 7px 14px #16191c, 
+             -7px -7px 14px #20252a;
+             height:200px;
+             width:200px;
+             margin:20px;
+}
+.btn1:hover
+{
+border-radius: 48px;
+background: #1b1f23;
+box-shadow: inset 18px 18px 36px #171b1e, 
+            inset -18px -18px 36px #1f2328;
+}
+.btn2
+{
+border-radius: 50px;
+background: linear-gradient(145deg, #181c20, #1d2125);
+box-shadow:  7px 7px 14px #16191c, 
+             -7px -7px 14px #20252a;
+             height:200px;
+             width:200px;
+            transform: translateX(370%);
+      position:Absolute;
+      top:20px;
+             
+}
+.btn2:hover
+{
+border-radius: 48px;
+background: #1b1f23;
+box-shadow: inset 18px 18px 36px #171b1e, 
+            inset -18px -18px 36px #1f2328;
+}
+.fa
+{
+padding-top:60px;
+font-size:60px;
+color:#636363;
+}
+.fa:hover
+{
+color:#ff7300;
+}
+.today
+{
+border-radius: 22px;
+background: linear-gradient(145deg, #181c20, #1d2125);
+box-shadow:  14px 14px 28px #14171a, 
+             -14px -14px 28px #22272c;
+             border:none;
+             outline:none;
+             height:140px;
+             width:430px;
+             font-size:50px;
+             color:#636363;
+             
+}
+.today:hover
+{
+border-radius: 22px;
+background: #1b1f23;
+box-shadow: inset 14px 14px 28px #171b1e, 
+            inset -14px -14px 28px #1f2328;
+ color:#ff7300;           
+}
+.yesterday
+{
+border-radius: 22px;
+background: linear-gradient(145deg, #181c20, #1d2125);
+box-shadow:  14px 14px 28px #14171a, 
+             -14px -14px 28px #22272c;
+            border:none;
+             outline:none;
+             height:140px;
+             width:430px;
+      font-size:50px;
+             color:#636363;        
+}
+.yesterday:hover
+{
+border-radius: 22px;
+background: #1b1f23;
+box-shadow: inset 14px 14px 28px #171b1e, 
+            inset -14px -14px 28px #1f2328;
+         color:#ff7300;
+}
+.inner
+{
+border-radius: 50%;
+background: linear-gradient(145deg, #1d2125, #181c20);
+box-shadow:  14px 14px 28px #16191d, 
+             -14px -14px 28px #202529;
+     height:750px;
+     width:750px;
+}
+.middle
+{
+width: 700px;
+height: 350px; 
+border-bottom-left-radius:1000px;
+border-bottom-right-radius:1000px;
+border:50px solid #ff3c00;
+border-top:0;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+transform: translateY(-110%);
+
+}
+.outer
+{
+border-radius: 50%;
+background: #1b1f23;
+box-shadow: inset 14px 14px 28px #16191d, 
+            inset -14px -14px 28px #202529;
+            height:500px;
+            width:500px;
+            transform: translateY(25%);
+}
+.button2
+{
+border-radius: 20px;
+background: #1b1f23;
+box-shadow:  13px 13px 26px #15181b, 
+             -13px -13px 26px #21262b;
+             border:none;
+             outline:none;
+             height:150px;
+             width:900px;
+             color:#636363;
+ font-size:50px;
+transform: translateY(-100%);
+}
+.button2:hover
+{
+border-radius: 20px;
+background: #1b1f23;
+box-shadow: inset 13px 13px 26px #16191c, 
+            inset -13px -13px 26px #20252a;
+    color:#ff7300;
+}
+.footer
+{
+display:flex;
+}
+.foot1
+{
+border-radius: 20px;
+background: #1b1f23;
+box-shadow:  13px 13px 26px #15181b, 
+             -13px -13px 26px #21262b;
+             height:200px;
+             width:200px;
+             margin:25px;
+}
+.foot1:hover
+{
+border-radius: 20px;
+background: #1b1f23;
+box-shadow: inset 13px 13px 26px #16191c, 
+            inset -13px -13px 26px #20252a;
+    color:#ff7300;
+}
+.foot2
+{
+border-radius: 20px;
+background: #1b1f23;
+box-shadow:  13px 13px 26px #15181b, 
+             -13px -13px 26px #21262b;
+             height:200px;
+             width:200px;
+             margin:25px;
+}
+.foot2:hover
+{
+border-radius: 20px;
+background: #1b1f23;
+box-shadow: inset 13px 13px 26px #16191c, 
+            inset -13px -13px 26px #20252a;
+    color:#ff7300;
+}
+.foot3
+{
+border-radius: 20px;
+background: #1b1f23;
+box-shadow:  13px 13px 26px #15181b, 
+             -13px -13px 26px #21262b;
+             height:200px;
+             width:200px;
+             margin:25px;
+}
+.foot3:hover
+{
+border-radius: 20px;
+background: #1b1f23;
+box-shadow: inset 13px 13px 26px #16191c, 
+            inset -13px -13px 26px #20252a;
+    color:#ff7300;
+}
+.foot4
+{
+border-radius: 20px;
+background: #1b1f23;
+box-shadow:  13px 13px 26px #15181b, 
+             -13px -13px 26px #21262b;
+             height:200px;
+             width:200px;
+             margin:25px;
+}
+.foot4:hover
+{
+border-radius: 20px;
+background: #1b1f23;
+box-shadow: inset 13px 13px 26px #16191c, 
+            inset -13px -13px 26px #20252a;
+    color:#ff7300;
+}
+.fa-heart:hover
+{
+color:red;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="btn1">
+  <i class="fa fa-arrow-left" aria-hidden="true"></i>
+  </div>
+  <div class="btn2">
+  <i class="fa fa-search" aria-hidden="true"></i>
+  </div>
+</div>
+<br>
+<h1 style="color:#636363; font-size:90px; margin:50px;">History</h1>
+<center>
+<div class="button">
+<input type="button" value="Today" name="button" class="today">&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="button" value="Yesterday" name="button" class="yesterday">
+</div>
+<br><br><br><br><br><br>
+<div class="circle">
+ <div class="inner">
+    <div class="outer">
+     <h1 style="color:#636363; font-size:95px; padding-top:25%;">55%
+   <br>  Saving</h1>
+  </div>
+ </div>
+ <div class="middle">
+ 
+ </div>
+</div>
+
+<div>
+ <input type="button" name="Code" value="View Code" class="button2">
+</div>
+
+
+<div class="footer">
+ <div class="foot1">
+   <i class="fa fa-home" aria-hidden="true"></i>
+ </div>
+ <div class="foot2">
+   <i class="fa fa-credit-card" aria-hidden="true"></i>
+ </div>
+ <div class="foot3">
+  <i class="fa fa-heart" aria-hidden="true"></i>
+ </div>
+ <div class="foot4">
+ <i class="fa fa-bell" aria-hidden="true"></i> 
+ </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
